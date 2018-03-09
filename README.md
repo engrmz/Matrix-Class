@@ -1,5 +1,16 @@
 # Matrix_Class
 
+By: Zohaib Muhammad
+University of Engineering & Technology (UET)
+Lahore, Pakistan.
+Contact: engr.mz@hotmail.com
+
+Thanks to @Davide Faconti (facontidavide) for his guidance.
+
+
+
+
+
 Instructions:
 ============
 No pointers are used, which reduces errors possibility due to dangling pointers or memory leaks. On backend, complete implementation is in 1D. However, to user it looks like a 2D matrix. Therefore it is a memory efficient implementation that take real scenarios into account. 

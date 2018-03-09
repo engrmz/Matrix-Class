@@ -27,7 +27,16 @@ The Matrix class has been created using C++ in Microsoft Visual Studio 2013. Ple
 
 Remaining functionalities will be added soon. 
 
+How to run?
+----------
+1. You can open the file "Matrix Library.sln" in Visual Studio project. It will show two files "Matrix.h" and "main.cpp". Write a code in main.cpp and call functions provided in Matrix.h.
+
+2. Copy "Matrix.h" into your directory. Include the header file "Matrix.h" and use the member functions.
+
 @ Ubuntu:
 ========
 The code can be used in Ubuntu environment using G++. The Valgrind can help in checking memory leaks. See the link for Valgrind help in Ubuntu environment.
+
 Valgrind Link: https://www.youtube.com/watch?v=pXIZ66_MsMQ&t=65s
+
+

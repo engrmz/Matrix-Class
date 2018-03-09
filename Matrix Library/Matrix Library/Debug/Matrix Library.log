@@ -1,0 +1,33 @@
+﻿Build started 3/10/2018 12:15:29 AM.
+     1>Project "E:\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Matrix Library\Matrix Library.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Matrix Library\Matrix.cpp" "..\..\..\..\..\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Matrix Library\main.cpp"
+         Matrix.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(204): warning C4018: '<' : signed/unsigned mismatch
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(188) : while compiling class template member function 'float Matrix<float>::calculateDeterminant(void) const'
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\main.cpp(53) : see reference to function template instantiation 'float Matrix<float>::calculateDeterminant(void) const' being compiled
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\main.cpp(12) : see reference to class template instantiation 'Matrix<float>' being compiled
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(208): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(234): warning C4018: '<' : signed/unsigned mismatch
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(217) : while compiling class template member function 'Matrix<float> Matrix<float>::getInverted(void) const'
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\main.cpp(58) : see reference to function template instantiation 'Matrix<float> Matrix<float>::getInverted(void) const' being compiled
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(236): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(241): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(256): warning C4018: '<' : signed/unsigned mismatch
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(253) : while compiling class template member function 'Matrix<float> Matrix<float>::operator *(const Matrix<float> &) const'
+                 e:\zohaib's work\todo\matrix_class\matrix library\matrix library\main.cpp(74) : see reference to function template instantiation 'Matrix<float> Matrix<float>::operator *(const Matrix<float> &) const' being compiled
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(257): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\zohaib's work\todo\matrix_class\matrix library\matrix library\matrix.h(258): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Debug\Matrix Library.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Debug\Matrix Library.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Debug\Matrix Library.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Matrix.obj
+         Matrix Library.vcxproj -> E:\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Debug\Matrix Library.exe
+     1>Done Building Project "E:\Zohaib's Work\ToDo\Matrix_class\Matrix Library\Matrix Library\Matrix Library.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.09

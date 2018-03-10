@@ -1,3 +1,7 @@
+
+Directory to header file : Matrix-Class/Matrix Library/Matrix Library/Matrix.h
+---------
+
 # Matrix_Class
 
 By: Zohaib Muhammad
